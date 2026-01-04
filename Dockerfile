@@ -1,5 +1,5 @@
-# Use the official OpenJDK 17 image from Docker Hub
-FROM openjdk:17
+# Use the official OpenJDK 21 image from Docker Hub
+FROM amazoncorretto:21.0.4-alpine3.18
 # Set working directory inside the container
 WORKDIR /app
 # Copy the compiled Java application JAR file into the container
